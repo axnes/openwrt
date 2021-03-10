@@ -82,6 +82,12 @@ ramips_board_detect() {
 	*"Broadway")
 		name="broadway"
 		;;
+	*"CPE-W4N (rev.M) (8M)")
+		name="cpe-w4n-revm-8M"
+		;;
+	*"CPE-W4N (rev.M) (16M)")
+		name="cpe-w4n-revm-16M"
+		;;
 	*"C108")
 		name="c108"
 		;;

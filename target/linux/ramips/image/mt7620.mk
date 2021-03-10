@@ -141,6 +141,23 @@ define Device/bocco
 endef
 TARGET_DEVICES += bocco
 
+define Device/cpe-w4n-revm-8M
+  DTS := CPE-W4N-REVM-8M
+  IMAGE_SIZE := $(ralink_default_fw_size_8M)
+  SUPPORTED_DEVICES += zbt-we826
+  DEVICE_TITLE := SNR CPE-W4N (rev.M) (8M)
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += cpe-w4n-revm-8M
+
+define Device/cpe-w4n-revm-16M
+  DTS := CPE-W4N-REVM-16M
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := SNR CPE-W4N (rev.M) (16M)
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += cpe-w4n-revm-16M
+
 define Device/c108
   DTS := C108
   IMAGE_SIZE := 16777216
