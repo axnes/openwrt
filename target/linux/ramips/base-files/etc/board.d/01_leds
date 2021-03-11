@@ -446,8 +446,8 @@ youku-yk1)
 	set_wifi_led "$boardname:blue:air"
 	ucidef_set_led_switch "wan" "wan" "$boardname:blue:wan" "switch0" "0x10"
 	;;
-snr,cpe-w4n-revm-8M|\
-snr,cpe-w4n-revm-16M)
+cpe-w4n-revm-8M|\
+cpe-w4n-revm-16M)
 	set_wifi_led "$boardname:green:air"
 	;;
 esac

@@ -225,8 +225,8 @@ ramips_setup_interfaces()
 	awm002-evb-4M|\
 	awm002-evb-8M|\
 	bdcom,wap2100-sk|\
-	snr,cpe-w4n-revm-8M|\
-	snr,cpe-w4n-revm-16M|\
+	cpe-w4n-revm-8M|\
+	cpe-w4n-revm-16M|\
 	dir-645|\
 	gl-mt300a|\
 	gl-mt300n|\
